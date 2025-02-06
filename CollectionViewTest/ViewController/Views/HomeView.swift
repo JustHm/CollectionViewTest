@@ -20,7 +20,7 @@ extension HomeView {
         }
         
         let config = UICollectionViewCompositionalLayoutConfiguration()
-        config.scrollDirection = .horizontal
+        config.scrollDirection = .vertical
         
         let layout2 = UICollectionViewCompositionalLayout(sectionProvider: { [weak self] section, env in
             self?.firstSection()
